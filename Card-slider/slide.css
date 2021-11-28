@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+.wrap{
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrap::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.wrap .item{
+    border: rgb(0, 0, 0) ;
+    border-radius: 8px;
+    min-height:395px;
+    min-width: 257px;
+    background-color: rgb(224, 255, 224);
+    margin-right: 15px;
+  
+    
+}
+
+
+.item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+.price:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+
+  
+  .price {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+ 
+  }
+
+  button{
+      color:white;
+      background-color: rgb(255, 89, 29);
+      border: tomato solid;
+      width: 150px;
+      height: 35px;
+      border-radius: 8px;
+      
+      
+  }
+
+  #hk{
+    height: 275px; ;
+  }
+
+  button:hover{
+    background-color: rgb(252, 103, 45);
+    border: rgb(255, 160, 97) solid;
+  }
+  
+  .wrap .item img{
+    
+    object-fit: cover;
+    height: 310px;
+}  
+
+
+.wrap .item img:hover{
+  transform: scale(1.2);
+}
+
+
+.wrap .item:hover{
+    box-shadow: 14px 27px 32px -5px rgba(145,136,136,0.75);
+-webkit-box-shadow: 14px 27px 32px -5px rgba(145,136,136,0.75);
+-moz-box-shadow: 14px 27px 32px -5px rgba(145,136,136,0.75);
+}
+
+.slide{
+  font-family: 'Fredoka One', cursive;
+  font-size: 92px;
+  color:#FF8833;
+}
